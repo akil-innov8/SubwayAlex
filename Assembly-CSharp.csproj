@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{17533FA3-357A-CEC6-ED1C-9FA92629C572}</ProjectGuid>
+	<ProjectGuid>{0C0E7CC1-1090-D3CF-10CD-33D4B76F3229}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Helper.cs" />
+     <Compile Include="Assets\ScriptableObjects\AudioContainer.cs" />
+     <Compile Include="Assets\Scripts\Audio.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Coins.cs" />
+     <Compile Include="Assets\Scripts\CoinsManager.cs" />
+     <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\PlatformManager.cs" />
+     <Compile Include="Assets\Scripts\Tags.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
